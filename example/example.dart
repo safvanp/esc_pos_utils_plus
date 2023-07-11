@@ -1,7 +1,7 @@
 import 'package:image/image.dart';
 import 'dart:typed_data';
 import 'package:flutter/services.dart';
-import 'package:esc_pos_utils_plus/esc_pos_utils.dart';
+import 'package:esc_pos_utils_plus/esc_pos_utils_plus.dart';
 
 Future<void> main() async {
   final profile = await CapabilityProfile.load();
