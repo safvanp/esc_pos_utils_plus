@@ -44,7 +44,7 @@ class PaperSize {
 
   int get width => value == PaperSize.mm58.value
       ? 372
-      : value == PaperSize.mm80
+      : value == PaperSize.mm80.value
           ? 558
           : 744;
 }
